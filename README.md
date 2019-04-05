@@ -24,6 +24,7 @@ The meshes have been automatically generated using the [OceanMesh2D](https://git
 - Topography/Bathymetry: Default for the Earth: [STRM15_PLUS](https://topex.ucsd.edu/WWW_html/srtm15_plus.html)
 - Shoreline Geometry: Default for the Earth: [GSSHG](http://www.soest.hawaii.edu/wessel/gshhg/)
 
+<!---
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/WPringle/Advanced-Global-Coastal-Flood-Forecasting-System/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
@@ -61,3 +62,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+-->
