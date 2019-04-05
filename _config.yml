@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 title: Advanced Global Coastal Flood Forecasting System
+description: An ADCIRC-based global storm tide modeling system providing real-time predictions for coastal flooding globally
 baseurl: /Advanced-Global-Coastal-Flood-Forecasting-System
