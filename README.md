@@ -11,7 +11,7 @@
 ![IdaiStormTideGlo](MaxStormTide_GFSfv3_100m_global.png)
 
 ### Local mesh used
-
+![LocMesh](image.png)
 
 ## How are the Forecasts Obtained?
 
