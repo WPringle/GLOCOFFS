@@ -21,7 +21,7 @@ The meshes have been automatically generated using the [OceanMesh2D](https://git
 
 ### Inputs and Sources
 - Meteorology: [FV3-GFS](https://www.emc.ncep.noaa.gov/users/Alicia.Bentley/fv3gfs/) model 10-m wind velocities (U10 and V10) and atmospheric pressure reduced to mean sea level (PRMSL). [Link for latest 2-day - archive of forecasts](https://para.nomads.ncep.noaa.gov/pub/data/nccf/com/gfs/para/)
-- Topography/Bathymetry: Default for the Earth: [STRM15_PLUS](https://topex.ucsd.edu/WWW_html/srtm15_plus.html)
+- Topography/Bathymetry: Default for the Earth: [SRTM15+V2.0](https://topex.ucsd.edu/WWW_html/srtm15_plus.html)
 - Shoreline Geometry: Default for the Earth: [GSSHG](http://www.soest.hawaii.edu/wessel/gshhg/)
 
 <!---
