@@ -11,8 +11,12 @@
 ![IdaiStormTideLoc](MaxStormTide_GFSfv3_100m.png)
 ![IdaiStormTideGlo](MaxStormTide_GFSfv3_100m_global.png)
 
-### Local mesh used
-![LocMesh](image.png)
+### Time Series at selected stations
+![BeiraTimeSeries](Beira.png)
+![ChiloaneTimeSeries](Chiloane.png)
+
+### Local mesh used with station locations
+![LocMesh](Mesh_w_stations.png)
 
 ## How are the Forecasts Obtained?
 
