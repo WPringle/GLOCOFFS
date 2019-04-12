@@ -12,6 +12,7 @@
 ![IdaiStormSurgeGlo](MaxSurge_GFSfv3_100m_global.png)
 
 ### Storm Tide (Surge + Astronomical Tide) 
+![IdaiStormTideLocVid](StormTide+Flood_Idai90m.gif)
 ![IdaiStormTideLoc](MaxStormTide+Flood_Idai90m.png)
 ![IdaiStormTideGlo](MaxStormTide_GFSfv3_100m_global.png)
 
