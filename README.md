@@ -3,6 +3,7 @@
 ## Tropical Cyclone Idai
 
 ### Maximum Surge 
+![IdaiStormSurgeLocVid](Surge+Flood_Idai90m.gif)
 ![IdaiStormSurgeLoc](MaxSurge_GFSfv3_100m.png)
 ![IdaiStormSurgeGlo](MaxSurge_GFSfv3_100m_global.png)
 
