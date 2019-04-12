@@ -8,11 +8,11 @@
 
 ### Surge 
 ![IdaiStormSurgeLocVid](Surge+Flood_Idai90m.gif)
-![IdaiStormSurgeLoc](MaxSurge_GFSfv3_100m.png)
+![IdaiStormSurgeLoc](MaxSurge+Flood_Idai90m.png)
 ![IdaiStormSurgeGlo](MaxSurge_GFSfv3_100m_global.png)
 
 ### Storm Tide (Surge + Astronomical Tide) 
-![IdaiStormTideLoc](MaxStormTide_GFSfv3_100m.png)
+![IdaiStormTideLoc](MaxStormTide+Flood_Idai90m.png)
 ![IdaiStormTideGlo](MaxStormTide_GFSfv3_100m_global.png)
 
 ### Time Series at selected stations
@@ -30,8 +30,8 @@ The meshes have been automatically generated using the [OceanMesh2D](https://git
 
 ### Inputs and Sources
 - Meteorology: [FV3-GFS](https://www.emc.ncep.noaa.gov/users/Alicia.Bentley/fv3gfs/) model 10-m wind velocities (U10 and V10) and atmospheric pressure reduced to mean sea level (PRMSL). [Link for latest 2-day - archive of forecasts](https://para.nomads.ncep.noaa.gov/pub/data/nccf/com/gfs/para/)
-- Topography/Bathymetry: Default for the Earth: [SRTM15+V2.0](https://topex.ucsd.edu/WWW_html/srtm15_plus.html)
-- Shoreline Geometry: Default for the Earth: [GSSHG](http://www.soest.hawaii.edu/wessel/gshhg/)
+- Topography/Bathymetry: Default for the Earth: [SRTM15+V2.0](https://topex.ucsd.edu/WWW_html/srtm15_plus.html); for high-resolution insets topography is replaced with [SRTM3](https://dds.cr.usgs.gov/srtm/version2_1/SRTM3/) (~90 m) data.
+- Shoreline Geometry: Default for the Earth: [GSSHG](http://www.soest.hawaii.edu/wessel/gshhg/); for high-resolution insets shoreline is replaced with the [SWBD](https://dds.cr.usgs.gov/srtm/version2_1/SWBD/) (~30-90 accuracy) SRTM-based dataset.
 
 <!---
 https://wpringle.github.io/Advanced-Global-Coastal-Flood-Forecasting-System/
