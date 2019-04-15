@@ -4,9 +4,9 @@ description: An ADCIRC-based global storm tide modeling system providing real-ti
 
 mapping:
     provider: openstreetmap
-	zoom: 8
-	dimensions:
-		width: 600
-		height: 400
+    zoom: 8
+    dimensions:
+    	width: 600
+	height: 400
     latitude: -20
     longitude: 34.5
