@@ -1,3 +1,9 @@
+---
+mapping:
+  latitude: -20
+  longitude: 34.5
+---
+
 # Latest Forecast
 
 ## None at present
