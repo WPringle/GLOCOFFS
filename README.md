@@ -1,10 +1,3 @@
----
-layout: page
-mapping:
-  latitude: -20
-  longitude: 34.5
----
-
 # Latest Forecast
 
 ## None at present
@@ -12,10 +5,6 @@ mapping:
 # Archived Events
 
 ## Tropical Cyclone Idai
-
-<div>
-{% render_map %}
-</div>
 
 ### Surge 
 ![IdaiStormSurgeLocVid](Surge+Flood_Idai90m.gif)
@@ -85,6 +74,3 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 -->
-
-{% include jekyll_mapping.html %}
-</body>
