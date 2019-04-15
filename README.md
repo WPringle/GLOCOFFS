@@ -8,7 +8,9 @@
 
 ### Surge 
 ![IdaiStormSurgeLocVid](Surge+Flood_Idai90m.gif)
-{% render_map %}
+<div>
+{% render_index_map %}
+</div>
 <!---![IdaiStormSurgeLoc](MaxSurge+Flood_Idai90m.png)-->
 ![IdaiStormSurgeGlo](MaxSurge_GFSfv3_100m_global.png)
 
