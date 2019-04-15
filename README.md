@@ -37,8 +37,6 @@ The meshes have been automatically generated using the [OceanMesh2D](https://git
 - Topography/Bathymetry: Default for the Earth: [SRTM15+V2.0](https://topex.ucsd.edu/WWW_html/srtm15_plus.html) (~450 m); for high-resolution insets topography is replaced with [SRTM3](https://dds.cr.usgs.gov/srtm/version2_1/SRTM3/) (~90 m) data.
 - Shoreline Geometry: Default for the Earth: [GSSHG](http://www.soest.hawaii.edu/wessel/gshhg/); for high-resolution insets shoreline is replaced with the [SWBD](https://dds.cr.usgs.gov/srtm/version2_1/SWBD/) (~30-90 accuracy) SRTM-based dataset.
 
-{% include jekyll_mapping.html %}
-
 <!---
 https://wpringle.github.io/Advanced-Global-Coastal-Flood-Forecasting-System/
 ## Welcome to GitHub Pages
@@ -79,3 +77,6 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 -->
+
+{% include jekyll_mapping.html %}
+</body>
