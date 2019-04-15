@@ -1,4 +1,5 @@
 ---
+layout: page
 mapping:
   latitude: -20
   longitude: 34.5
