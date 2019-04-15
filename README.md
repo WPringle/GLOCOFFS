@@ -13,7 +13,9 @@ mapping:
 
 ## Tropical Cyclone Idai
 
+<div>
 {% render_map %}
+</div>
 
 ### Surge 
 ![IdaiStormSurgeLocVid](Surge+Flood_Idai90m.gif)
