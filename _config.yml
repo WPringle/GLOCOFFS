@@ -1,3 +1,8 @@
 theme: jekyll-theme-cayman
 title: GLObal Coastal Ocean Flood Forecasting System
 description: An ADCIRC-based global storm tide modeling system providing real-time predictions for coastal flooding
+
+mapping:
+    provider: google_static
+    latitude: -20
+    longitude: 34.5
