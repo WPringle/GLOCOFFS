@@ -8,10 +8,12 @@
 
 ### Surge 
 ![IdaiStormSurgeLocVid](Surge+Flood_Idai90m.gif)
+
 <div>
 {% render_index_map %}
 </div>
-<!---![IdaiStormSurgeLoc](MaxSurge+Flood_Idai90m.png)-->
+
+![IdaiStormSurgeLoc](MaxSurge+Flood_Idai90m.png)
 ![IdaiStormSurgeGlo](MaxSurge_GFSfv3_100m_global.png)
 
 ### Storm Tide (Surge + Astronomical Tide) 
