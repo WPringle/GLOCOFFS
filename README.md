@@ -6,11 +6,10 @@
 
 ## Tropical Cyclone Idai
 
+{% render_map %}
+
 ### Surge 
 ![IdaiStormSurgeLocVid](Surge+Flood_Idai90m.gif)
-
-{% render_index_map %}
-
 ![IdaiStormSurgeLoc](MaxSurge+Flood_Idai90m.png)
 ![IdaiStormSurgeGlo](MaxSurge_GFSfv3_100m_global.png)
 
