@@ -14,6 +14,7 @@
 ### Storm Tide (Surge + Astronomical Tide) 
 ![IdaiStormTideLocVid](StormTide+Flood_Idai90m.gif)
 ![IdaiStormTideLoc](MaxStormTide+Flood_Idai90m.png)
+![IdaiStormTideFlood](MaxStormTide+Flood_E34S20.png)
 ![IdaiStormTideGlo](MaxStormTide_GFSfv3_100m_global.png)
 
 ### Time Series at selected stations
