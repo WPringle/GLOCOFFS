@@ -1,6 +1,6 @@
 # Latest Forecast
 
-## Global 2 km Mesh
+## Global Results
 
 ### Storm Tide (Surge + Astronomical Tide) 
 ![GlobalStormTide](MaxStormTide_Global2km.png)
