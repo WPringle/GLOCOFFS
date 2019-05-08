@@ -2,8 +2,10 @@
 
 ## Global Results
 
-### Storm Tide (Surge + Astronomical Tide) 
+### Hydrodynamic: Maximum Storm Tide (Surge + Astronomical Tide)
 ![GlobalStormTide](MaxStormTide_Global2km.png)
+
+### Meteorologic: Maximum 10-m Winds and Minimum Sea Surface Pressure
 ![GlobalGFS](MaxWindVel_Global2km.png)
 
 # Archived Events
