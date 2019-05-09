@@ -2,7 +2,9 @@
 
 ## Global Results
 
-### Hydrodynamic: Maximum Storm Tide (Surge + Astronomical Tide)
+### Hydrodynamic: Maximum Storm Tide (Surge + Astronomical Tide) Anomaly
+
+Anomaly from simple estimate of mean high water based on TPXO9 tidal harmonics
 ![GlobalStormTide](MaxStormTide_Global2km.png)
 
 ### Meteorologic: Maximum 10-m Winds and Minimum Sea Surface Pressure
