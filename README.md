@@ -8,6 +8,7 @@ Anomaly from simple estimate of mean high water based on TPXO9 tidal harmonics
 ![GlobalStormTide](MaxStormTide_Global2km.png)
 
 ### Meteorologic: Maximum 10-m Winds and Minimum Sea Surface Pressure
+
 ![GlobalGFS](MaxWindVel_Global2km.png)
 
 # Archived Events
