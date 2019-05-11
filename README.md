@@ -13,8 +13,8 @@ Anomaly from simple estimate of mean high water based on TPXO9 tidal harmonics
 
 # Archived Events
 
-[Tropical Cyclone Fadi](Archives/Fadi/Fadi.md)
-[Tropical Cyclone Idai](Archives/Idai/Idai.md)
+- [Tropical Cyclone Fani](Archives/Fani/Fani.md)
+- [Tropical Cyclone Idai](Archives/Idai/Idai.md)
 
 ## How are the Forecasts Obtained?
 
