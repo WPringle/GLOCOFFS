@@ -1,4 +1,17 @@
-## Tropical Cyclone Fani
+# Tropical Cyclone Fani
+
+## Global Results
+
+### Hydrodynamic: Maximum Storm Tide (Surge + Astronomical Tide) Anomaly
+
+Anomaly from Highest Astronomical Tide (HAT); estimated by the maximum water level from a 1-year (2018) tide-only simulation
+![GlobalStormTide](MaxStormTide_Global2km.png)
+
+### Meteorologic: Maximum 10-m Winds and Minimum Sea Surface Pressure
+
+![GlobalGFS](MaxWindVel_Global2km.png)
+
+## Local Results
 
 ### Surge 
 ![FaniStormSurgeLocVid](Surge+Flood_Fani90m.gif)
