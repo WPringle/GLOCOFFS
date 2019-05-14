@@ -1,10 +1,11 @@
-## Tropical Cyclone Fadi
+## Tropical Cyclone Fani
 
 ### Surge 
 ![FaniStormSurgeLocVid](Surge+Flood_Fani90m.gif)
 
 ### Storm Tide (Surge + Astronomical Tide) 
 ![FaniStormTideLocVid](StormTide+Flood_Ganges90m.gif)
+![FaniStormTideLocPic](MaxStormTide+Flood_Ganges.png)
 
 ### Time Series at selected stations
 
