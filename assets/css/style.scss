@@ -1,0 +1,19 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.main-content {
+
+  @include large {
+    max-width: 128rem;
+    padding: 2rem 1rem;
+    font-size: 1.1rem;
+  }
+  
+  @include medium {
+    padding: 2rem 1rem;
+    font-size: 1.1rem;
+  }
+
+}

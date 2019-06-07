@@ -6,7 +6,10 @@
 
 Anomaly from Highest Astronomical Tide (HAT); estimated by the maximum water level from a 1-year (2018) tide-only simulation
 NB: Only showing surge at the moment
-![GlobalStormTide](MaxStormTide_Global2km.png)
+<img src="MaxStormTide_Global2km.png" alt="hi" usemap="#mapname">
+<map name="mapname">
+    <area shape="rect" coords="48,341,294,275" href="Archives/Fani/Fani.md" alt="alttext">
+</map>
 
 ### Meteorologic: Maximum 10-m Winds and Minimum Sea Surface Pressure
 
@@ -32,6 +35,7 @@ Nearly 1400 high-resolution (~90 m) 1 deg x 1 deg inset meshes (indicated by the
 - Shoreline Geometry: Default for the Earth: [GSSHG](http://www.soest.hawaii.edu/wessel/gshhg/); for high-resolution insets shoreline is replaced with the [SWBD](https://dds.cr.usgs.gov/srtm/version2_1/SWBD/) (~30-90 m accuracy) SRTM-based dataset.
 
 <!---
+![GlobalStormTide](MaxStormTide_Global2km.png)
 https://wpringle.github.io/Advanced-Global-Coastal-Flood-Forecasting-System/
 ## Welcome to GitHub Pages
 
