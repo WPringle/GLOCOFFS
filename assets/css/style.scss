@@ -3,7 +3,9 @@
 
 @import "{{ site.theme }}";
 
-p {
-  margin-right: 0px;
-  margin-left: 0px;
+div {
+  padding-top: 30px;
+  padding-right: 2px;
+  padding-bottom: 30px;
+  padding-left: 2px;
 }
