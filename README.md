@@ -11,10 +11,10 @@ NB: Only showing surge at the moment
 <map name="mapname">
     <area shape="rect" coords="460,300,610,500" href="MaxStormTide_NA2km.png" alt="Western North Atlantic">
     <area shape="rect" coords="800,250,900,400" href="MaxStormTide_WE2km.png" alt="Western Europe">
-    <area shape="rect" coords="1000,700,1150,850" href="MaxStormTide_EA2km.png" alt="East Africa">
-    <area shape="rect" coords="1400,550,1700,450" href="MaxStormTide_WP2km.png" alt="West Pacific">
-    <area shape="rect" coords="1150,550,1400,850" href="MaxStormTide_SA2km.png" alt="South Asia">
-    <area shape="rect" coords="1400,700,1900,1000" href="MaxStormTide_OC2km.png" alt="Oceania">
+    <area shape="rect" coords="900,600,1050,700" href="MaxStormTide_EA2km.png" alt="East Africa">
+    <area shape="rect" coords="1050,450,1250,550" href="MaxStormTide_SA2km.png" alt="South Asia">
+    <area shape="rect" coords="1250,325,1500,550" href="MaxStormTide_WP2km.png" alt="West Pacific">
+    <area shape="rect" coords="1250,600,1650,800" href="MaxStormTide_OC2km.png" alt="Oceania">
 </map>
 
 ### Meteorologic: Maximum 10-m Winds and Minimum Sea Surface Pressure
