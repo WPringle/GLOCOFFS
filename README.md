@@ -6,13 +6,13 @@
 
 Anomaly from Highest Astronomical Tide (HAT); estimated by the maximum water level from a 1-year (2018) tide-only simulation
 NB: Only showing surge at the moment
-<img src="MaxStormTide_Global2km.png" alt="hi" usemap="#mapname">
+<img src="MaxStormTide_Global2km.png" width="870" height="450" alt="hi" usemap="#mapname">
 <map name="mapname">
-    <area shape="rect" coords="48,341,294,275" href="Archives/Fani/Fani.md" alt="alttext">
+    <area shape="rect" coords="102,60,610,50" href="Archives/Fani/MaxStormTide+Flood_1.png" alt="Arctic Ocean">
+    <area shape="rect" coords="102,390,610,50" href="Archives/Fani/MaxStormTide+Flood_2.png" alt="Arctic Ocean">
 </map>
 
 ### Meteorologic: Maximum 10-m Winds and Minimum Sea Surface Pressure
-
 ![GlobalGFS](MaxWindVel_Global2km.png)
 
 # Archived Events
