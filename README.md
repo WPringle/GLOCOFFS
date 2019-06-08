@@ -12,11 +12,11 @@ NB: Only showing surge at the moment. Click to see closeup of regions
 <img src="MaxStormTide_Global2km.png" width="1100" alt="hi" usemap="#mapname">
 <map name="mapname">
     <area shape="rect" coords="250,170,350,270" href="MaxStormTide_NA2km.png" alt="Western North Atlantic">
-    <area shape="rect" coords="450,125,500,200" href="MaxStormTide_WE2km.png" alt="Western Europe">
-    <area shape="rect" coords="550,350,600,400" href="MaxStormTide_EA2km.png" alt="East Africa">
-    <area shape="rect" coords="600,250,650,300" href="MaxStormTide_SA2km.png" alt="South Asia">
-    <area shape="rect" coords="785,175,950,300" href="MaxStormTide_WP2km.png" alt="West Pacific">
-    <area shape="rect" coords="785,400,1050,475" href="MaxStormTide_OC2km.png" alt="Oceania">
+    <area shape="rect" coords="475,125,525,200" href="MaxStormTide_WE2km.png" alt="Western Europe">
+    <area shape="rect" coords="575,325,650,400" href="MaxStormTide_EA2km.png" alt="East Africa">
+    <area shape="rect" coords="650,200,750,275" href="MaxStormTide_SA2km.png" alt="South Asia">
+    <area shape="rect" coords="750,175,875,275" href="MaxStormTide_WP2km.png" alt="West Pacific">
+    <area shape="rect" coords="750,325,950,450" href="MaxStormTide_OC2km.png" alt="Oceania">
 </map>
 
 
