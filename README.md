@@ -7,7 +7,7 @@
 Anomaly from Highest Astronomical Tide (HAT); estimated by the maximum water level from a 1-year (2018) tide-only simulation
 
 NB: Only showing surge at the moment
-<img src="MaxStormTide_Global2km.png" alt="hi" usemap="#mapname">
+<img src="MaxStormTide_Global2km.png" width="1000" alt="hi" usemap="#mapname">
 <map name="mapname">
     <area shape="rect" coords="460,300,610,500" href="MaxStormTide_NA2km.png" alt="Western North Atlantic">
     <area shape="rect" coords="800,250,900,400" href="MaxStormTide_WE2km.png" alt="Western Europe">
