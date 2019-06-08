@@ -7,14 +7,14 @@
 Anomaly from Highest Astronomical Tide (HAT); estimated by the maximum water level from a 1-year (2018) tide-only simulation
 
 NB: Only showing surge at the moment
-<img src="MaxStormTide_Global2km.png" width="1000" alt="hi" usemap="#mapname">
+<img src="MaxStormTide_Global2km.png" width="1100" alt="hi" usemap="#mapname">
 <map name="mapname">
-    <area shape="rect" coords="460,300,610,500" href="MaxStormTide_NA2km.png" alt="Western North Atlantic">
-    <area shape="rect" coords="800,250,900,400" href="MaxStormTide_WE2km.png" alt="Western Europe">
-    <area shape="rect" coords="970,600,1100,700" href="MaxStormTide_EA2km.png" alt="East Africa">
-    <area shape="rect" coords="1100,400,1260,500" href="MaxStormTide_SA2km.png" alt="South Asia">
-    <area shape="rect" coords="1260,325,1450,500" href="MaxStormTide_WP2km.png" alt="West Pacific">
-    <area shape="rect" coords="1260,600,1570,750" href="MaxStormTide_OC2km.png" alt="Oceania">
+    <area shape="rect" coords="300,150,305,250" href="MaxStormTide_NA2km.png" alt="Western North Atlantic">
+    <area shape="rect" coords="400,125,450,200" href="MaxStormTide_WE2km.png" alt="Western Europe">
+    <area shape="rect" coords="485,300,550,350" href="MaxStormTide_EA2km.png" alt="East Africa">
+    <area shape="rect" coords="550,200,630,250" href="MaxStormTide_SA2km.png" alt="South Asia">
+    <area shape="rect" coords="630,325,725,250" href="MaxStormTide_WP2km.png" alt="West Pacific">
+    <area shape="rect" coords="630,300,785,375" href="MaxStormTide_OC2km.png" alt="Oceania">
 </map>
 
 ### Meteorologic: Maximum 10-m Winds and Minimum Sea Surface Pressure
