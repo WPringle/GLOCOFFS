@@ -20,4 +20,4 @@
 ### Local mesh and topobathy with station locations
 ![LocMesh](Mesh_w_stations.png)
 
-<script src="../js/script-min.js"></script>
+<script src="../../js/script-min.js"></script>
