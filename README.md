@@ -8,9 +8,10 @@ Anomaly from Highest Astronomical Tide (HAT); estimated by the maximum water lev
 
 NB: Only showing surge at the moment. Click to see closeup of regions
 
-[NA](MaxStormTide_NA2km.png) ・ [WE](MaxStormTide_WE2km.png) ・ [EA](MaxStormTide_EA2km.png) ・ [SA](MaxStormTide_SA2km.png) ・ [WP](MaxStormTide_WP2km.png) ・ [OC](MaxStormTide_OC2km.png)
+[WA](MaxStormTide_WA2km.png) ・ [NA](MaxStormTide_NA2km.png) ・ [WE](MaxStormTide_WE2km.png) ・ [EA](MaxStormTide_EA2km.png) ・ [SA](MaxStormTide_SA2km.png) ・ [WP](MaxStormTide_WP2km.png) ・ [OC](MaxStormTide_OC2km.png)
 <img src="MaxStormTide_Global2km.png" width="1100" alt="hi" usemap="#mapname">
 <map name="mapname">
+    <area shape="rect" coords="150,100,200,150" href="MaxStormTide_WA2km.png" alt="Western Alaska">
     <area shape="rect" coords="250,170,350,270" href="MaxStormTide_NA2km.png" alt="Western North Atlantic">
     <area shape="rect" coords="475,125,525,200" href="MaxStormTide_WE2km.png" alt="Western Europe">
     <area shape="rect" coords="575,325,650,400" href="MaxStormTide_EA2km.png" alt="East Africa">
