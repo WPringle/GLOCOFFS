@@ -2,10 +2,3 @@
 ---
 
 @import "{{ site.theme }}";
-
-.main-content {
-
-  @include large {
-    max-width: 128rem;  
-  }
-}
