@@ -1,10 +1,12 @@
 ## Tropical Cyclone Idai
 
 ### Surge 
-<img src="MaxSurge+Flood_Idai90m.png" alt="Static Image" data-alt="Surge+Flood_Idai90m.gif">
-
+<!---
 ![IdaiStormSurgeLocVid](Surge+Flood_Idai90m.gif)
 ![IdaiStormSurgeLoc](MaxSurge+Flood_Idai90m.png)
+-->
+<img src="MaxSurge+Flood_Idai90m.png" alt="Static Image" data-alt="Surge+Flood_Idai90m.gif">
+
 ![IdaiStormSurgeGlo](MaxSurge_GFSfv3_100m_global.png)
 
 ### Storm Tide (Surge + Astronomical Tide) 
