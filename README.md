@@ -1,12 +1,16 @@
-# Latest Forecast
+# Latest 6-hourly Forecasts
 
-## Global Results
-
-### Hydrodynamic: Maximum Storm Tide (Surge + Astronomical Tide) Anomaly
+<!---
+## Hydrodynamic: Maximum Storm Tide (Surge + Astronomical Tide) Anomaly
 
 Anomaly from Highest Astronomical Tide (HAT); estimated by the maximum water level from a 1-year (2018) tide-only simulation
+-->
 
-NB: Only showing surge at the moment. Click to see closeup of regions
+## Hydrodynamic: Maximum Surge (metereolorogical driven component above tides)
+
+NOTE: For the automatic 6-hourly forecasts currently just simulating on the default global mesh without high-resolution insets as described below. See archived events for examples of using high-resolution insets in the global mesh.
+
+Click to see closeup of maximum surge and maximum winds/minimum pressure in individual regions
 
 [WA](MaxCombined_WA2km.png) ・ [NA](MaxCombined_NA2km.png) ・ [WE](MaxCombined_WE2km.png) ・ [EA](MaxCombined_EA2km.png) ・ [SA](MaxCombined_SA2km.png) ・ [WP](MaxCombined_WP2km.png) ・ [OC](MaxCombined_OC2km.png)
 <img src="MaxStormTide_Global2km.png" width="1100" alt="hi" usemap="#mapname">
@@ -21,7 +25,7 @@ NB: Only showing surge at the moment. Click to see closeup of regions
 </map>
 
 
-### Meteorologic: Maximum 10-m Winds and Minimum Sea Surface Pressure
+## Meteorologic: Maximum 10-m Winds and Minimum Sea Surface Pressure
 ![GlobalGFS](MaxWindVel_Global2km.png)
 
 # Archived Events
@@ -33,7 +37,9 @@ NB: Only showing surge at the moment. Click to see closeup of regions
 
 Forecasts are 2D barotropic ocean circulation and inundation simulations on unstructured triangular meshes subject to meteorological and astronomical forcings, which drive surge and tide respectively. The simulations are conducted using the [ADCIRC](http://adcirc.org/) model. 
 
-The meshes have been automatically generated using the [OceanMesh2D](https://github.com/CHLNDDEV/OceanMesh2D) Matlab meshing toolbox. A single seamless unstructured mesh is used for each forecast. The default mesh which covers the entire Earth has a variable coastal resolution ranging between 2 km and 10 km depending on shoreline complexity. Moreover, when a storm is predicted to make landfall a higher resolution (~90 m) inset around the forecasted landfalling region is automatically merged into the global mesh to provide accurate forecasts of extreme water levels and flooding in the landfall region. In this way we can minimize the computational resources in order to provide timely forecasts without sacrificing accuracy where coastal flooding occurs.
+The meshes have been automatically generated using the [OceanMesh2D](https://github.com/CHLNDDEV/OceanMesh2D) Matlab meshing toolbox. A single seamless unstructured mesh is used for each forecast. The default mesh which covers the entire Earth has a variable coastal resolution ranging between 2 km and 10 km depending on shoreline complexity. 
+
+Moreover, when a storm is predicted to make landfall a higher resolution (~90 m) inset around the forecasted landfalling region is automatically merged into the global mesh to provide accurate forecasts of extreme water levels and flooding in the landfall region. In this way we can minimize the computational resources in order to provide timely forecasts without sacrificing accuracy where coastal flooding occurs.
 
 Nearly 1400 high-resolution (~90 m) 1 deg x 1 deg inset meshes (indicated by the red boxes in the image below) have been generated in regions where storms and flooding tend to occur. These are automatically merged into the global mesh as necessary. 
 ![SRTMBoxes](BoxMap_SRTM3.png)
