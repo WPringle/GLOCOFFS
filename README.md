@@ -6,7 +6,7 @@
 Anomaly from Highest Astronomical Tide (HAT); estimated by the maximum water level from a 1-year (2018) tide-only simulation
 -->
 
-NOTE: For the automatic 6-hourly forecasts currently just simulating on the default global mesh without high-resolution insets as described below. See archived events for examples of using high-resolution insets in the global mesh.
+DISCLAIMER: This model is under development and predictions for surge and coastal flooding are for research purposes only. They should never be used for navigational purposes or emergency planning under any circumstances.
 
 RECENT UPDATES: 
 - Now running with corrected spherical coordinates (new unreleased feature that I have just implemented for ADCIRC -> matters a great deal for high latitudes)
@@ -44,6 +44,8 @@ Forecasts are 2D barotropic ocean circulation and inundation simulations on unst
 The meshes have been automatically generated using the [OceanMesh2D](https://github.com/CHLNDDEV/OceanMesh2D) Matlab meshing toolbox. A single seamless unstructured mesh is used for each forecast. The default mesh which covers the entire Earth has a variable coastal resolution ranging between 2 km and 10 km depending on shoreline complexity. 
 
 Moreover, when a storm is predicted to make landfall a higher resolution (~90 m) inset around the forecasted landfalling region is automatically merged into the global mesh to provide accurate forecasts of extreme water levels and flooding in the landfall region. In this way we can minimize the computational resources in order to provide timely forecasts without sacrificing accuracy where coastal flooding occurs.
+
+NOTE: For the automatic 6-hourly forecasts currently just simulating on the default global mesh without high-resolution insets as described in the above paragraph. See archived events for examples of using high-resolution insets in the global mesh.
 
 Nearly 1400 high-resolution (~90 m) 1 deg x 1 deg inset meshes (indicated by the red boxes in the image below) have been generated in regions where storms and flooding tend to occur. These are automatically merged into the global mesh as necessary. 
 ![SRTMBoxes](BoxMap_SRTM3.png)
