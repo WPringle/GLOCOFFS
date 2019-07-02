@@ -6,9 +6,13 @@
 Anomaly from Highest Astronomical Tide (HAT); estimated by the maximum water level from a 1-year (2018) tide-only simulation
 -->
 
-## Hydrodynamic: Maximum Surge (metereolorogical driven component above tides)
-
 NOTE: For the automatic 6-hourly forecasts currently just simulating on the default global mesh without high-resolution insets as described below. See archived events for examples of using high-resolution insets in the global mesh.
+
+RECENT UPDATES: 
+- Now running with corrected spherical coordinates (new unreleased feature that I have just implemented for ADCIRC -> matters a great deal for high latitudes)
+- Using the implicit solver with 40 sec timestep (increased from 10 sec timestep for explicit solver previously used) 
+
+## Hydrodynamic: Maximum Surge (metereolorogical driven component above tides)
 
 Click to see closeup of maximum surge and maximum winds/minimum pressure in individual regions
 
