@@ -9,8 +9,8 @@ Anomaly from Highest Astronomical Tide (HAT); estimated by the maximum water lev
 DISCLAIMER: This model is under development and predictions for surge and coastal flooding are for research purposes only. They should never be used for navigational purposes or emergency planning under any circumstances.
 
 RECENT UPDATES: 
-- Now running with corrected spherical coordinates (new unreleased feature that I have just implemented for ADCIRC -> matters a great deal for high latitudes)
-- Using the implicit solver with 40 sec timestep (increased from 10 sec timestep for explicit solver previously used) 
+- Simulating with corrected spherical coordinates (new unreleased feature that I have just implemented for ADCIRC -> seems to have generally INCREASED maximum surge levels throughout globe)
+- Using the semi-implicit solver with 80 sec timestep (simulation runtime is now down to ~10 min for each forecast) 
 
 ## Hydrodynamic: Maximum Surge (metereolorogical driven component above tides)
 
