@@ -9,10 +9,11 @@ Anomaly from Highest Astronomical Tide (HAT); estimated by the maximum water lev
 DISCLAIMER: This model is under development and predictions for surge and coastal flooding are for research purposes only. They should never be used for navigational purposes or emergency planning under any circumstances.
 
 RECENT UPDATES: 
-- Simulating with corrected spherical coordinates (new unreleased feature that I have just implemented for ADCIRC -> seems to have generally INCREASED maximum surge levels throughout globe)
-- Using the semi-implicit solver with 80 sec timestep (simulation runtime is now down to ~10 min for each forecast) 
+- Simulating with corrected spherical coordinates with Mercator projection (new unreleased feature that I have implemented for ADCIRC)
+- Using the semi-implicit solver with 120 sec timestep (simulation runtime is down to ~10 min for each forecast) 
+- Updated bathymetry to new GEBCO_2019 grid plus local ~100 m DEMS in Canada and Australia
 
-## Hydrodynamic: Maximum Surge (metereolorogical driven component above tides)
+## Hydrodynamic: Maximum Surge (meteorological driven component above tides)
 
 Click to see closeup of maximum surge and maximum winds/minimum pressure in individual regions
 
@@ -51,7 +52,7 @@ Nearly 1400 high-resolution (~90 m) 1 deg x 1 deg inset meshes (indicated by the
 ![SRTMBoxes](BoxMap_SRTM3.png)
 
 ### Inputs and Sources
-- Meteorology: [FV3-GFS](https://www.emc.ncep.noaa.gov/users/Alicia.Bentley/fv3gfs/) model 10-m wind velocities (U10 and V10) and atmospheric pressure reduced to mean sea level (PRMSL). [Link for latest 10-day - archive of forecasts](https://nomads.ncep.noaa.gov/pub/data/nccf/com/gfs/prod/)
+- Meteorology: [FV3-GFS](https://www.emc.ncep.noaa.gov/users/Alicia.Bentley/fv3gfs/) model 10-m wind velocities (U10 and V10) and atmospheric pressure reduced to mean sea level (MSLET). [Link for latest 10-day - archive of forecasts](https://nomads.ncep.noaa.gov/pub/data/nccf/com/gfs/prod/)
 - Topography/Bathymetry: Default for the Earth: [SRTM15+V2.0](https://topex.ucsd.edu/WWW_html/srtm15_plus.html) (~450 m); for high-resolution insets topography is replaced with [SRTM3](https://dds.cr.usgs.gov/srtm/version2_1/SRTM3/) (~90 m) data.
 - Shoreline Geometry: Default for the Earth: [GSSHG](http://www.soest.hawaii.edu/wessel/gshhg/); for high-resolution insets shoreline is replaced with the [SWBD](https://dds.cr.usgs.gov/srtm/version2_1/SWBD/) (~30-90 m accuracy) SRTM-based dataset.
 
