@@ -8,30 +8,31 @@ Anomaly from Highest Astronomical Tide (HAT); estimated by the maximum water lev
 
 DISCLAIMER: This model is under development and predictions for surge and coastal flooding are for research purposes only. They should never be used for navigational purposes or emergency planning under any circumstances.
 
-RECENT UPDATES: 
-- Simulating using the fully consistent spherical coordinate formulation with Mercator projection (new unreleased feature that I have implemented for ADCIRC)
-- Using the semi-implicit solver with 120 sec timestep (simulation runtime is down to ~10 min for each forecast) 
-- Updated bathymetry to new GEBCO_2019 grid plus local ~100 m DEMS in Canada and Australia
+RECENT UPDATES (March 25, 2020): 
+- Updating to a coastal (minimum) resolution of 1.5 km (from 2 km previously)
+- Simulating using the fully consistent Spherical coordinate formulation with rotated coordinates to remove the North Pole singularity (feature to be released in ADCIRC v55)
+- Using the improved semi-implicit solver with 120 sec timestep (simulation runtime is ~10 min for each forecast) 
+- Expanding the Western Europe zoom-in plot to cover most of Europe
 
 ## Hydrodynamic: Maximum Surge (meteorological driven component above tides)
 
 Click to see closeup of maximum surge and maximum winds/minimum pressure in individual regions
 
-[WA](MaxCombined_WA2km.png) ・ [NA](MaxCombined_NA2km.png) ・ [WE](MaxCombined_WE2km.png) ・ [EA](MaxCombined_EA2km.png) ・ [SA](MaxCombined_SA2km.png) ・ [WP](MaxCombined_WP2km.png) ・ [OC](MaxCombined_OC2km.png)
-<img src="MaxStormTide_Global2km.png" width="1100" alt="hi" usemap="#mapname">
+[WA](MaxCombined_WA1.5km.png) ・ [NA](MaxCombined_NA1.5km.png) ・ [EU](MaxCombined_EU1.5km.png) ・ [EA](MaxCombined_EA1.5km.png) ・ [SA](MaxCombined_SA1.5km.png) ・ [WP](MaxCombined_WP1.5km.png) ・ [OC](MaxCombined_OC1.5km.png)
+<img src="MaxStormTide_Global1.5km.png" width="1100" alt="hi" usemap="#mapname">
 <map name="mapname">
-    <area shape="rect" coords="150,100,200,150" href="MaxCombined_WA2km.png" alt="Western Alaska">
-    <area shape="rect" coords="250,170,350,270" href="MaxCombined_NA2km.png" alt="Western North Atlantic">
-    <area shape="rect" coords="475,125,525,200" href="MaxCombined_WE2km.png" alt="Western Europe">
-    <area shape="rect" coords="575,325,650,400" href="MaxCombined_EA2km.png" alt="East Africa">
-    <area shape="rect" coords="650,200,750,275" href="MaxCombined_SA2km.png" alt="South Asia">
-    <area shape="rect" coords="750,175,875,275" href="MaxCombined_WP2km.png" alt="West Pacific">
-    <area shape="rect" coords="750,325,950,450" href="MaxCombined_OC2km.png" alt="Oceania">
+    <area shape="rect" coords="150,100,200,150" href="MaxCombined_WA1.5km.png" alt="Western Alaska">
+    <area shape="rect" coords="250,170,350,270" href="MaxCombined_NA1.5km.png" alt="Western North Atlantic">
+    <area shape="rect" coords="480,120,565,200" href="MaxCombined_EU1.5km.png" alt="Europe">
+    <area shape="rect" coords="575,325,650,400" href="MaxCombined_EA1.5km.png" alt="East Africa">
+    <area shape="rect" coords="650,200,750,275" href="MaxCombined_SA1.5km.png" alt="South Asia">
+    <area shape="rect" coords="750,175,875,275" href="MaxCombined_WP1.5km.png" alt="West Pacific">
+    <area shape="rect" coords="750,325,950,450" href="MaxCombined_OC1.5km.png" alt="Oceania">
 </map>
 
 
 ## Meteorologic: Maximum 10-m Winds and Minimum Sea Surface Pressure
-![GlobalGFS](MaxWindVel_Global2km.png)
+![GlobalGFS](MaxWindVel_Global1.5km.png)
 
 # Archived Events
 
@@ -42,7 +43,7 @@ Click to see closeup of maximum surge and maximum winds/minimum pressure in indi
 
 Forecasts are 2D barotropic ocean circulation and inundation simulations on unstructured triangular meshes subject to meteorological and astronomical forcings, which drive surge and tide respectively. The simulations are conducted using the [ADCIRC](http://adcirc.org/) model. 
 
-The meshes have been automatically generated using the [OceanMesh2D](https://github.com/CHLNDDEV/OceanMesh2D) Matlab meshing toolbox. A single seamless unstructured mesh is used for each forecast. The default mesh which covers the entire Earth has a variable coastal resolution ranging between 2 km and 10 km depending on shoreline complexity. 
+The meshes have been automatically generated using the [OceanMesh2D](https://github.com/CHLNDDEV/OceanMesh2D) Matlab meshing toolbox. A single seamless unstructured mesh is used for each forecast. The default mesh which covers the entire Earth has a coastal resolution of 1.5 km. In the ocean the resolution varies between 1.5 km and 25 km according to functions of topographic gradient and distance from the shoreline.
 
 NOTE: For the explanation below see archived events for examples of using high-resolution insets in the global mesh. The automatic 6-hourly forecasts are currently only simulated on the default global mesh without high-resolution insets 
 
