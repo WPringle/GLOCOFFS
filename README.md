@@ -12,6 +12,7 @@ RECENT UPDATES (March 25, 2020):
 - Updating to a coastal (minimum) resolution of 1.5 km (from 2 km previously)
 - Simulating using the fully consistent Spherical coordinate formulation with rotated coordinates to remove the North Pole singularity (feature to be released in ADCIRC v55)
 - Using the improved semi-implicit solver with 120 sec timestep (simulation runtime is ~10 min for each forecast) 
+- Including the effect of ice area-fraction on ocean surface drag 
 - Expanding the Western Europe zoom-in plot to cover most of Europe
 
 ## Hydrodynamic: Maximum Surge (meteorological driven component above tides)
