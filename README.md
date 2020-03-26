@@ -23,7 +23,7 @@ Click to see closeup of maximum surge and maximum winds/minimum pressure in indi
 <map name="mapname">
     <area shape="rect" coords="150,100,200,150" href="MaxCombined_WA1.5km.png" alt="Western Alaska">
     <area shape="rect" coords="250,170,350,270" href="MaxCombined_NA1.5km.png" alt="Western North Atlantic">
-    <area shape="rect" coords="480,120,565,200" href="MaxCombined_EU1.5km.png" alt="Europe">
+    <area shape="rect" coords="480,120,600,230" href="MaxCombined_EU1.5km.png" alt="Europe">
     <area shape="rect" coords="575,325,650,400" href="MaxCombined_EA1.5km.png" alt="East Africa">
     <area shape="rect" coords="650,200,750,275" href="MaxCombined_SA1.5km.png" alt="South Asia">
     <area shape="rect" coords="750,175,875,275" href="MaxCombined_WP1.5km.png" alt="West Pacific">
