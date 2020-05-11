@@ -15,6 +15,9 @@ RECENT UPDATES (March 25, 2020):
 - Including the effect of ice area-fraction on ocean surface drag 
 - Expanding the Western Europe zoom-in plot to cover most of Europe
 
+OTHER LINKS
+- Please also check out our dedicated [Alaska forecasts](https://gm-ling.github.io/AKSSFS/)
+
 ## Hydrodynamic: Maximum Surge (meteorological driven component above tides)
 
 Click to see closeup of maximum surge and maximum winds/minimum pressure in individual regions
