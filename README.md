@@ -52,6 +52,7 @@ Nearly 1400 high-resolution (~90 m) 1 deg x 1 deg inset meshes (indicated by the
 
 ## References
 - Pringle, W. J., Wirasaet, D., Roberts, K. J., and Westerink, J. J.: Global Storm Tide Modeling with ADCIRC v55: Unstructured Mesh Design and Performance, Geosci. Model Dev. Discuss., https://doi.org/10.5194/gmd-2020-123, in review, 2020.
+- Pringle, W. J., Wirasaet, D., Westerink, J. J., and Roberts, K. J.: ADCIRC v55 - Modeling the Earth, Mesh Resolution Effects and Removing Time Step Contraints, in ADCIRC Users Group Meeting 2020, https://doi.org/10.17615/39bf-wa56, 2020.
 - Roberts, K. J., Pringle, W. J., and Westerink, J. J.: OceanMesh2D 1.0: MATLAB-based software for two-dimensional unstructured mesh generation in coastal ocean modeling, Geosci. Model Dev., 12, 1847–1868, https://doi.org/10.5194/gmd-12-1847-2019, 2019.
 
 ## Other Links
