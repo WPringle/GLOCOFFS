@@ -8,16 +8,6 @@ Anomaly from Highest Astronomical Tide (HAT); estimated by the maximum water lev
 
 DISCLAIMER: This model is under development and predictions for surge and coastal flooding are for research purposes only. They should never be used for navigational purposes or emergency planning under any circumstances.
 
-RECENT UPDATES (March 25, 2020): 
-- Updating to a coastal (minimum) resolution of 1.5 km (from 2 km previously)
-- Simulating using the fully consistent Spherical coordinate formulation with rotated coordinates to remove the North Pole singularity (feature to be released in ADCIRC v55)
-- Using the improved semi-implicit solver with 120 sec timestep (simulation runtime is ~10 min for each forecast) 
-- Including the effect of ice area-fraction on ocean surface drag 
-- Expanding the Western Europe zoom-in plot to cover most of Europe
-
-OTHER LINKS
-- Please also check out our dedicated [Alaska forecasts](https://gm-ling.github.io/AKSSFS/)
-
 ## Hydrodynamic: Maximum Surge (meteorological driven component above tides)
 
 Click to see closeup of maximum surge and maximum winds/minimum pressure in individual regions
@@ -39,15 +29,14 @@ Click to see closeup of maximum surge and maximum winds/minimum pressure in indi
 ![GlobalGFS](MaxWindVel_Global1.5km.png)
 
 # Archived Events
-
 - [Tropical Cyclone Fani](Archives/Fani/Fani.md)
 - [Tropical Cyclone Idai](Archives/Idai/Idai.md)
 
 ## How are the Forecasts Obtained?
 
-Forecasts are 2D barotropic ocean circulation and inundation simulations on unstructured triangular meshes subject to meteorological and astronomical forcings, which drive surge and tide respectively. The simulations are conducted using the [ADCIRC](http://adcirc.org/) model. 
+Forecasts are 2D barotropic ocean circulation and inundation simulations on unstructured triangular meshes subject to meteorological and astronomical forcings, which drive surge and tide respectively. The effect of ice is considered in the computationa of sea surface drag driving surge. The simulations are conducted using the Version 55 of the [ADCIRC](http://adcirc.org/) model (Pringle et al., 2020), and each forecast simulation takes ~10 min wall-clock time on 96 computational processors.
 
-The meshes have been automatically generated using the [OceanMesh2D](https://github.com/CHLNDDEV/OceanMesh2D) Matlab meshing toolbox. A single seamless unstructured mesh is used for each forecast. The default mesh which covers the entire Earth has a coastal resolution of 1.5 km. In the ocean the resolution varies between 1.5 km and 25 km according to functions of topographic gradient and distance from the shoreline.
+The meshes have been automatically generated using the [OceanMesh2D](https://github.com/CHLNDDEV/OceanMesh2D) Matlab meshing toolbox (Roberts et al., 2019). A single seamless unstructured mesh is used for each forecast. The default mesh which covers the entire Earth has a coastal resolution of 1.5 km. In the ocean the resolution varies between 1.5 km and 25 km according to functions of topographic gradient and distance from the shoreline.
 
 NOTE: For the explanation below see archived events for examples of using high-resolution insets in the global mesh. The automatic 6-hourly forecasts are currently only simulated on the default global mesh without high-resolution insets 
 
@@ -56,10 +45,17 @@ Moreover, when a storm is predicted to make landfall a higher resolution (~90 m)
 Nearly 1400 high-resolution (~90 m) 1 deg x 1 deg inset meshes (indicated by the red boxes in the image below) have been generated in regions where storms and flooding tend to occur. These are automatically merged into the global mesh as necessary. 
 ![SRTMBoxes](BoxMap_SRTM3.png)
 
-### Inputs and Sources
+## Inputs and Sources
 - Meteorology: [FV3-GFS](https://www.emc.ncep.noaa.gov/users/Alicia.Bentley/fv3gfs/) model 10-m wind velocities (U10 and V10) and atmospheric pressure reduced to mean sea level (MSLET). [Link for latest 10-day - archive of forecasts](https://nomads.ncep.noaa.gov/pub/data/nccf/com/gfs/prod/)
 - Topography/Bathymetry: Default for the Earth: [GEBCO_2019](https://www.gebco.net/data_and_products/gridded_bathymetry_data/gebco_2019/gebco_2019_info.html) (~450 m); for high-resolution insets topography is replaced with [SRTM3](https://dds.cr.usgs.gov/srtm/version2_1/SRTM3/) (~90 m) data.
 - Shoreline Geometry: Default for the Earth: [GSSHG](http://www.soest.hawaii.edu/wessel/gshhg/); for high-resolution insets shoreline is replaced with the [SWBD](https://dds.cr.usgs.gov/srtm/version2_1/SWBD/) (~30-90 m accuracy) SRTM-based dataset.
+
+## References
+- Pringle, W. J., Wirasaet, D., Roberts, K. J., and Westerink, J. J.: Global Storm Tide Modeling with ADCIRC v55: Unstructured Mesh Design and Performance, Geosci. Model Dev. Discuss., https://doi.org/10.5194/gmd-2020-123, in review, 2020.
+- Roberts, K. J., Pringle, W. J., and Westerink, J. J.: OceanMesh2D 1.0: MATLAB-based software for two-dimensional unstructured mesh generation in coastal ocean modeling, Geosci. Model Dev., 12, 1847–1868, https://doi.org/10.5194/gmd-12-1847-2019, 2019.
+
+## Other Links
+- Please also check out our dedicated [Alaska forecasts](https://gm-ling.github.io/AKSSFS/)
 
 <!---
 ![GlobalStormTide](MaxStormTide_Global2km.png)
