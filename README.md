@@ -34,9 +34,9 @@ Click to see closeup of maximum surge and maximum winds/minimum pressure in indi
 
 ## How are the Forecasts Obtained?
 
-Forecasts are 2D barotropic ocean circulation and inundation simulations on unstructured triangular meshes subject to meteorological and astronomical forcings, which drive surge and tide respectively. The effect of ice is considered in the computationa of sea surface drag driving surge. The simulations are conducted using the Version 55 of the [ADCIRC](http://adcirc.org/) model (Pringle et al., 2020), and each forecast simulation takes ~10 min wall-clock time on 96 computational processors.
+Forecasts are 2D barotropic ocean circulation and inundation simulations on unstructured triangular meshes subject to meteorological and astronomical forcings, which drive surge and tide respectively. The effect of ice is considered in the computationa of sea surface drag driving surge. The simulations are conducted using the Version 55 of the [ADCIRC](http://adcirc.org/) model ([Pringle et al., 2020](https://doi.org/10.5194/gmd-2020-123)), and each forecast simulation takes ~10 min wall-clock time on 96 computational processors.
 
-The meshes have been automatically generated using the [OceanMesh2D](https://github.com/CHLNDDEV/OceanMesh2D) Matlab meshing toolbox (Roberts et al., 2019). A single seamless unstructured mesh is used for each forecast. The default mesh which covers the entire Earth has a coastal resolution of 1.5 km. In the ocean the resolution varies between 1.5 km and 25 km according to functions of topographic gradient and distance from the shoreline.
+The meshes have been automatically generated using the [OceanMesh2D](https://github.com/CHLNDDEV/OceanMesh2D) Matlab meshing toolbox ([Roberts et al., 2019](https://doi.org/10.5194/gmd-12-1847-2019)). A single seamless unstructured mesh is used for each forecast. The default mesh which covers the entire Earth has a coastal resolution of 1.5 km. In the ocean the resolution varies between 1.5 km and 25 km according to functions of topographic gradient and distance from the shoreline.
 
 NOTE: For the explanation below see archived events for examples of using high-resolution insets in the global mesh. The automatic 6-hourly forecasts are currently only simulated on the default global mesh without high-resolution insets 
 
