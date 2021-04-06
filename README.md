@@ -34,7 +34,7 @@ Click to see closeup of maximum surge and maximum winds/minimum pressure in indi
 
 ## How are the Forecasts Obtained?
 
-Forecasts are 2D barotropic ocean circulation and inundation simulations on unstructured triangular meshes subject to meteorological and astronomical forcings, which drive surge and tide respectively. The effect of ice is considered in the computationa of sea surface drag driving surge. The simulations are conducted using the Version 55 of the [ADCIRC](http://adcirc.org/) model ([Pringle et al., 2020](https://doi.org/10.5194/gmd-2020-123)), and each forecast simulation takes ~10 min wall-clock time on 96 computational processors.
+Forecasts are 2D barotropic ocean circulation and inundation simulations on unstructured triangular meshes subject to meteorological and astronomical forcings, which drive surge and tide respectively. The effect of ice is considered in the computationa of sea surface drag driving surge. The simulations are conducted using the Version 55 of the [ADCIRC](http://adcirc.org/) model ([Pringle et al., 2021](https://doi.org/10.5194/gmd-14-1125-2021)), and each forecast simulation takes ~10 min wall-clock time on 96 computational processors.
 
 The meshes have been automatically generated using the [OceanMesh2D](https://github.com/CHLNDDEV/OceanMesh2D) Matlab meshing toolbox ([Roberts et al., 2019](https://doi.org/10.5194/gmd-12-1847-2019)). A single seamless unstructured mesh is used for each forecast. The default mesh which covers the entire Earth has a coastal resolution of 1.5 km. In the ocean the resolution varies between 1.5 km and 25 km according to functions of topographic gradient and distance from the shoreline.
 
@@ -51,7 +51,7 @@ Nearly 1400 high-resolution (~90 m) 1 deg x 1 deg inset meshes (indicated by the
 - Shoreline Geometry: Default for the Earth: [GSSHG](http://www.soest.hawaii.edu/wessel/gshhg/); for high-resolution insets shoreline is replaced with the [SWBD](https://dds.cr.usgs.gov/srtm/version2_1/SWBD/) (~30-90 m accuracy) SRTM-based dataset.
 
 ## References
-- Pringle, W. J., Wirasaet, D., Roberts, K. J., and Westerink, J. J.: Global Storm Tide Modeling with ADCIRC v55: Unstructured Mesh Design and Performance, Geosci. Model Dev. Discuss., [doi:10.5194/gmd-2020-123](https://doi.org/10.5194/gmd-2020-123), in review, 2020.
+- Pringle, W. J., Wirasaet, D., Roberts, K. J., and Westerink, J. J.: Global Storm Tide Modeling with ADCIRC v55: Unstructured Mesh Design and Performance, Geosci. Model Dev., 14, 1125-1145, [doi:10.5194/gmd-14-1125-2021](https://doi.org/10.5194/gmd-14-1125-2021), 2021.
 - Pringle, W. J., Wirasaet, D., Westerink, J. J., and Roberts, K. J.: ADCIRC v55 - Modeling the Earth, Mesh Resolution Effects and Removing Time Step Contraints, in ADCIRC Users Group Meeting 2020, [doi:10.17615/39bf-wa56](https://doi.org/10.17615/39bf-wa56), 2020.
 - Roberts, K. J., Pringle, W. J., and Westerink, J. J.: OceanMesh2D 1.0: MATLAB-based software for two-dimensional unstructured mesh generation in coastal ocean modeling, Geosci. Model Dev., 12, 1847–1868, [doi:10.5194/gmd-12-1847-2019](https://doi.org/10.5194/gmd-12-1847-2019), 2019.
 
