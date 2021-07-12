@@ -1,5 +1,9 @@
 # Latest 6-hourly Forecasts
 
+## IMPORTANT NOTE
+## Ongoing 6-hourly forecasts using GLOCOFFS has been discontinued. 
+## Global storm tide simulation forecasts are now being hosted at: [GESTOFS-develop](https://gm-ling.github.io/GESTOFS-develop/)
+
 <!---
 ## Hydrodynamic: Maximum Storm Tide (Surge + Astronomical Tide) Anomaly
 
